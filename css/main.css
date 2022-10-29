@@ -1,0 +1,16 @@
+.main {
+  margin-top: 50px;
+}
+
+.main__legend {
+  background-color:firebrick;
+  color: white;
+  padding: 5px;
+  }
+  
+  .main__button {
+    background-color:  firebrick;
+    color: white;
+  }
+  
+  
