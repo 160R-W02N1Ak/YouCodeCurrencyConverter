@@ -1,18 +1,26 @@
-let currency1Element = document.querySelector(".js-currency1");
-let currency2Element = document.querySelector(".js-currency2");
-let formElement = document.querySelector(".js-form");
-let resultElement = document.querySelector(".js-result");
+{
+  const welcome = () => {
+    console.log("Witam serdecznie wszystkich developerów, którzy tu zaglądają.")
+  };
 
-formElement.addEventListener("submit", (event) => {
-  event.preventDefault();
+  const init = () => {
+    const formElement = document.querySelector(".js-form");
 
-  let currency1 = currency1Element.value;
-  let currency2 = currency2Element.value;
+    formElement.addEventListener("submit", (event) => {
+      event.preventDefault();
 
+      const currency1Element = document.querySelector(".js-currency1");
+      const currency2Element = document.querySelector(".js-currency2");
+      const resultElement = document.querySelector(".js-result");
 
-  let result = currency1 * currency2;
+      const currency1 = currency1Element.value;
+      const currency2 = currency2Element.value;
 
-  resultElement.innerText = result.toFixed(4);
+      let result = currency1 * currency2;
+      resultElement.innerText = result.toFixed(4);
+    });
+  };
 
-});
-
+  welcome();
+  init();
+}
