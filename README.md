@@ -3,7 +3,7 @@
 
 https://160r-w02n1ak.github.io/YouCodeCurrencyConverter/
 
-![Screenshot](https://github.com/160R-W02N1Ak/YouCodeCurrencyConverter/blob/main/images/CurrencyConverter.png)
+![Screenshot](https://github.com/160R-W02N1Ak/YouCodeCurrencyConverter/blob/main/images/currency%20converter%20screenshot%20.png)
 
 ### Description
 
