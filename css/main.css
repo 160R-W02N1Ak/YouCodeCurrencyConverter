@@ -1,5 +1,8 @@
 .main {
   margin-top: 50px;
+  padding: 10px;
+  background-color: white;
+  border: 5px solid black;
 }
 
 .main__legend {
